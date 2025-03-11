@@ -1,0 +1,55 @@
+.container {
+    max-width: 30%;
+    margin: 10rem auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 2px solid #000;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 20px;
+}
+
+:global(input) {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+}
+
+:global(button) {
+    padding: 1rem;
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+:global(button:hover) {
+    background: #218838;
+}
+
+:global(ul) {
+    list-style: none;
+    padding: 0;
+}
+
+.listItem {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.done {
+    text-decoration: line-through;
+    color: gray;
+}
